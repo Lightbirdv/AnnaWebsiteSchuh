@@ -1,246 +1,381 @@
 <!DOCTYPE html>
 <html lang="de">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Formschön</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Formschön</title>
 
-        <!-- Einbinden der css Dateien -->
-        <link rel="stylesheet" href="./css/keen-slider.min.css"/>
-        <link rel="stylesheet" media="screen and (min-width: 769px)" href="./css/styles-monitor.css">
-        <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/styles-tablet.css">
-        <link rel="stylesheet" media="screen and (max-width: 576px)" href="./css/styles-phone.css">
+		<!-- Einbinden der css Dateien -->
+		<link rel="stylesheet" href="./css/keen-slider.min.css" />
+		<link
+			rel="stylesheet"
+			media="screen and (min-width: 769px)"
+			href="./css/styles-monitor.css"
+		/>
+		<link
+			rel="stylesheet"
+			media="screen and (max-width: 768px)"
+			href="./css/styles-tablet.css"
+		/>
+		<link
+			rel="stylesheet"
+			media="screen and (max-width: 576px)"
+			href="./css/styles-phone.css"
+		/>
+	</head>
+	<body>
+		<!-- Beginn der Navigation -->
+		<div class="section">
+			<div class="nav-container">
+				<nav>
+					<img src="img/logo.svg" id="logo" alt="default" />
+					<ul class="nav-items">
+						<li>
+							<a href="index.html">Jubiläum</a>
+						</li>
+						<li>
+							<a href="index.html">Chronologie</a>
+						</li>
+						<li>
+							<a href="index.html">Leistungen</a>
+						</li>
+						<li>
+							<a href="index.html">Maßschuhe</a>
+						</li>
+						<li>
+							<a href="index.html">Stimmen</a>
+						</li>
+						<li>
+							<a href="index.html">Pflegetipps</a>
+						</li>
+						<li>
+							<a href="index.html">Kontakt</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="seperator"></div>
+			<!-- Rooftext -->
 
-    </head>
-    <body>
-         <!-- Beginn der Navigation -->
-        <div class="section">
-            <div class="nav-container">
-                <nav>
-                    <img src="img/logo.svg" id="logo" alt="default">
-                    <ul class="nav-items">
-                        <li>
-                            <a href="index.html">Jubiläum</a>
-                        </li>
-                        <li>
-                            <a href="index.html">Chronologie</a>
-                        </li>
-                        <li>
-                            <a href="index.html">Leistungen</a>
-                        </li>     
-                        <li>
-                            <a href="index.html">Maßschuhe</a>
-                        </li>
-                        <li>
-                            <a href="index.html">Stimmen</a>
-                        </li>                   
-                        <li>
-                            <a href="index.html">Pflegetipps</a>
-                        </li>                   
-                        <li>
-                            <a href="index.html">Kontakt</a>
-                        </li>                                      
-                    </ul>
-                </nav>
-            </div>
-            <div class="seperator"></div>
-            <!-- Rooftext -->
+			<div class="roof">
+				<h4 id="rooftext">
+					Schuhmanufaktur Formschön<br />
+					Bad Goseberg
+				</h4>
+				<p id="headertext1">Eleganz</p>
+				<p id="headertext2">von Kopf</p>
+				<p id="headertext3">bis Fuß</p>
+			</div>
 
-            <div class="roof">
-                <h4 id="rooftext">Schuhmanufaktur Formschön<br> Bad Goseberg</h4>
-                <p id="headertext1">Eleganz</p>
-                <p id="headertext2">von Kopf</p>
-                <p id="headertext3">bis Fuß</p>
-            </div>
-            
-            <!-- Weird Slider -->
-            <button id="red-arrow-down">&#8595;</button>
-            <div id="my-keen-slider1" class="keen-slider">
-                <div class="keen-slider__slide number-slide1"><img src="./img/header1.png" alt="alter Schuh"></div>
-                <div class="keen-slider__slide number-slide2"><img src="./img/header1.png" alt="alter Schuh"></div>
-                <div class="keen-slider__slide number-slide3"><img src="./img/header1.png" alt="alter Schuh"></div>
-              </div>
-              <svg
-                id="arrow-left"
-                class="arrow arrow--left"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"
-                ></path>
-              </svg>
-              <svg
-                id="arrow-right"
-                class="arrow arrow--right"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-              >
-                <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"></path>
-              </svg>
-            <div id="dots" class="dots"></div>
+			<!-- Weird Slider -->
+			<button id="red-arrow-down">&#8595;</button>
+			<div id="my-keen-slider1" class="keen-slider">
+				<div class="keen-slider__slide number-slide1">
+					<img src="./img/header1.png" alt="alter Schuh" />
+				</div>
+				<div class="keen-slider__slide number-slide2">
+					<img src="./img/header1.png" alt="alter Schuh" />
+				</div>
+				<div class="keen-slider__slide number-slide3">
+					<img src="./img/header1.png" alt="alter Schuh" />
+				</div>
+			</div>
+			<svg
+				id="arrow-left"
+				class="arrow arrow--left"
+				xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 24 24"
+			>
+				<path
+					d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"
+				></path>
+			</svg>
+			<svg
+				id="arrow-right"
+				class="arrow arrow--right"
+				xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 24 24"
+			>
+				<path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"></path>
+			</svg>
+			<div id="dots" class="dots"></div>
 
-            <!-- First content section -->
-            <div class="leftpicture">
-                <img src="/img/firstcontentpic.png" id="firstcontentpic" alt="Schuh mit Tasche">
-                <div class="card">
-                    <h4 id="roofleft">Immer einen Schritt voraus</h4>
-                    <h3>Feiern Sie mit uns!</h3>
-                    <p>Im September 2001 eröffneten wir Geschwister, Maria Gracia<br> und Paolo Zuretti, in Bad Godesberg unsere Schuhmanufaktur.<br> Zuvor hatten wir beide den Meisterbrief erworben und <br>mehrere Jahre in verschiedenen Werkstätten Berufserfahrung<br> gesammelt. Im September 2021 feiern wir also das 20-jährige<br> Bestehen unserer Manufaktur. <br>
-                    <br>
-                    Wir freuen uns auf Ihren Besuch – ob online oder direkt in der <br>Alten Bahnhofstraße 5a in Bonn-Bad Godesberg.
-                    </p>
-                </div>
-            </div>
-        </div>
+			<!-- First content section -->
+			<div class="leftpicture">
+				<img
+					src="/img/firstcontentpic.png"
+					id="firstcontentpic"
+					alt="Schuh mit Tasche"
+				/>
+				<div class="card">
+					<h4 id="roofleft">Immer einen Schritt voraus</h4>
+					<h3>Feiern Sie mit uns!</h3>
+					<p>
+						Im September 2001 eröffneten wir Geschwister, Maria
+						Gracia<br />
+						und Paolo Zuretti, in Bad Godesberg unsere
+						Schuhmanufaktur.<br />
+						Zuvor hatten wir beide den Meisterbrief erworben und
+						<br />mehrere Jahre in verschiedenen Werkstätten
+						Berufserfahrung<br />
+						gesammelt. Im September 2021 feiern wir also das
+						20-jährige<br />
+						Bestehen unserer Manufaktur. <br />
+						<br />
+						Wir freuen uns auf Ihren Besuch – ob online oder direkt
+						in der <br />Alten Bahnhofstraße 5a in Bonn-Bad
+						Godesberg.
+					</p>
+				</div>
+			</div>
+		</div>
 
-        <div class="sectionheadline">
-            <h1 id="firsthead">Meilensteine</h1>
-            <h1 id="secondhead">Meilensteine</h1>
-            <h1 id="thirdhead">Meilensteine</h1>
-            <h1 id="fourthhead">Meilensteine</h1>
-        </div>
+		<div class="sectionheadline">
+			<div class="headline-row">
+				<span class="headline dark">Meilensteine</span>
+				<span class="headline light">Meilensteine</span>
+			</div>
+			<div class="headline-row">
+				<span class="headline light">Meilensteine</span
+				><span class="headline dark">Meilensteine</span>
+			</div>
+		</div>
 
-        <div class="section">
-            <div class="chronic">
-                <h4 id="rooftext"> 20 Jahre</h4>
-                <h2>Schuhmanufaktur<br>Formschön</h2>
+		<div class="section">
+			<div class="chronic">
+				<h4 id="rooftext">20 Jahre</h4>
+				<h2>Schuhmanufaktur<br />Formschön</h2>
+			</div>
 
-            </div>
-            
-            <div id="my-keen-slider2" class="keen-slider">
-                <div class="keen-slider__slide number-slide1">
-                    <div class="chroniccard">
-                        <img src="/img/chronic1.png" alt="chroniccard1">
-                        <h5>2001</h5>
-                        <p id="month">September</p>
-                        <p>Gemeinsam eröffnen wir Geschwister, Maria Gracia <br>und Paolo Zuretti, in Bad Godesberg unsere <br>Schuhmanufaktur. Wir haben beide den Meister- <br>brief erworben und bereits mehrere Jahre Berufs- <br>erfahrung in verschiedenen Werkstätten gesammelt.</p>
-                    </div>
-                </div>
-                <div class="keen-slider__slide number-slide2">
-                    <div class="chroniccard">
-                        <img src="/img/chronic1.png" alt="chroniccard1">
-                        <h5>2001</h5>
-                        <p id="month">September</p>
-                        <p>Gemeinsam eröffnen wir Geschwister, Maria Gracia <br>und Paolo Zuretti, in Bad Godesberg unsere <br>Schuhmanufaktur. Wir haben beide den Meister- <br>brief erworben und bereits mehrere Jahre Berufs- <br>erfahrung in verschiedenen Werkstätten gesammelt.</p>
-                    </div>
-                </div>
-                <div class="keen-slider__slide number-slide3">
-                    <div class="chroniccard">
-                        <img src="/img/chronic1.png" alt="chroniccard1">
-                        <h5>2001</h5>
-                        <p id="month">September</p>
-                        <p>Gemeinsam eröffnen wir Geschwister, Maria Gracia <br>und Paolo Zuretti, in Bad Godesberg unsere <br>Schuhmanufaktur. Wir haben beide den Meister- <br>brief erworben und bereits mehrere Jahre Berufs- <br>erfahrung in verschiedenen Werkstätten gesammelt.</p>
-                    </div>
-                </div>
-                <div class="keen-slider__slide number-slide4">
-                    <div class="chroniccard">
-                        <img src="/img/chronic1.png" alt="chroniccard1">
-                        <h5>2001</h5>
-                        <p id="month">September</p>
-                        <p>Gemeinsam eröffnen wir Geschwister, Maria Gracia <br>und Paolo Zuretti, in Bad Godesberg unsere <br>Schuhmanufaktur. Wir haben beide den Meister- <br>brief erworben und bereits mehrere Jahre Berufs- <br>erfahrung in verschiedenen Werkstätten gesammelt.</p>
-                    </div>
-                </div>
-                <div class="keen-slider__slide number-slide5">
-                    <div class="chroniccard">
-                        <img src="/img/chronic1.png" alt="chroniccard1">
-                        <h5>2001</h5>
-                        <p id="month">September</p>
-                        <p>Gemeinsam eröffnen wir Geschwister, Maria Gracia <br>und Paolo Zuretti, in Bad Godesberg unsere <br>Schuhmanufaktur. Wir haben beide den Meister- <br>brief erworben und bereits mehrere Jahre Berufs- <br>erfahrung in verschiedenen Werkstätten gesammelt.</p>
-                    </div>
-                </div>
-                <div class="keen-slider__slide number-slide6">
-                    <div class="chroniccard">
-                        <img src="/img/chronic1.png" alt="chroniccard1">
-                        <h5>2001</h5>
-                        <p id="month">September</p>
-                        <p>Gemeinsam eröffnen wir Geschwister, Maria Gracia <br>und Paolo Zuretti, in Bad Godesberg unsere <br>Schuhmanufaktur. Wir haben beide den Meister- <br>brief erworben und bereits mehrere Jahre Berufs- <br>erfahrung in verschiedenen Werkstätten gesammelt.</p>
-                    </div>
-                </div>
-                <div class="keen-slider__slide number-slide7">
-                    <div class="chroniccard">
-                        <img src="/img/chronic1.png" alt="chroniccard1">
-                        <h5>2001</h5>
-                        <p id="month">September</p>
-                        <p>Gemeinsam eröffnen wir Geschwister, Maria Gracia <br>und Paolo Zuretti, in Bad Godesberg unsere <br>Schuhmanufaktur. Wir haben beide den Meister- <br>brief erworben und bereits mehrere Jahre Berufs- <br>erfahrung in verschiedenen Werkstätten gesammelt.</p>
-                    </div>
-                </div>
-                <div class="keen-slider__slide number-slide8">
-                    <div class="chroniccard">
-                        <img src="/img/chronic1.png" alt="chroniccard1">
-                        <h5>2001</h5>
-                        <p id="month">September</p>
-                        <p>Gemeinsam eröffnen wir Geschwister, Maria Gracia <br>und Paolo Zuretti, in Bad Godesberg unsere <br>Schuhmanufaktur. Wir haben beide den Meister- <br>brief erworben und bereits mehrere Jahre Berufs- <br>erfahrung in verschiedenen Werkstätten gesammelt.</p>
-                    </div>
-                </div>
-                <div class="keen-slider__slide number-slide9">
-                    <div class="chroniccard">
-                        <img src="/img/chronic1.png" alt="chroniccard1">
-                        <h5>2001</h5>
-                        <p id="month">September</p>
-                        <p>Gemeinsam eröffnen wir Geschwister, Maria Gracia <br>und Paolo Zuretti, in Bad Godesberg unsere <br>Schuhmanufaktur. Wir haben beide den Meister- <br>brief erworben und bereits mehrere Jahre Berufs- <br>erfahrung in verschiedenen Werkstätten gesammelt.</p>
-                    </div>
-                </div>
-                <div class="keen-slider__slide number-slide10">
-                    <div class="chroniccard">
-                        <img src="/img/chronic1.png" alt="chroniccard1">
-                        <h5>2001</h5>
-                        <p id="month">September</p>
-                        <p>Gemeinsam eröffnen wir Geschwister, Maria Gracia <br>und Paolo Zuretti, in Bad Godesberg unsere <br>Schuhmanufaktur. Wir haben beide den Meister- <br>brief erworben und bereits mehrere Jahre Berufs- <br>erfahrung in verschiedenen Werkstätten gesammelt.</p>
-                    </div>
-                </div>
-                <div class="keen-slider__slide number-slide11">
-                    <div class="chroniccard">
-                        <img src="/img/chronic1.png" alt="chroniccard1">
-                        <h5>2001</h5>
-                        <p id="month">September</p>
-                        <p>Gemeinsam eröffnen wir Geschwister, Maria Gracia <br>und Paolo Zuretti, in Bad Godesberg unsere <br>Schuhmanufaktur. Wir haben beide den Meister- <br>brief erworben und bereits mehrere Jahre Berufs- <br>erfahrung in verschiedenen Werkstätten gesammelt.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-            <div class="spacer">
-                <img src="img/banner1.svg" alt="">
-            </div>
-            
-            <div class="clearfix"></div>
+			<div id="my-keen-slider2" class="keen-slider">
+				<div class="keen-slider__slide number-slide1">
+					<div class="chroniccard">
+						<img src="/img/chronic1.png" alt="chroniccard1" />
+						<h5>2001</h5>
+						<p id="month">September</p>
+						<p>
+							Gemeinsam eröffnen wir Geschwister, Maria Gracia
+							<br />und Paolo Zuretti, in Bad Godesberg unsere
+							<br />Schuhmanufaktur. Wir haben beide den Meister-
+							<br />brief erworben und bereits mehrere Jahre
+							Berufs- <br />erfahrung in verschiedenen Werkstätten
+							gesammelt.
+						</p>
+					</div>
+				</div>
+				<div class="keen-slider__slide number-slide2">
+					<div class="chroniccard">
+						<img src="/img/chronic1.png" alt="chroniccard1" />
+						<h5>2001</h5>
+						<p id="month">September</p>
+						<p>
+							Gemeinsam eröffnen wir Geschwister, Maria Gracia
+							<br />und Paolo Zuretti, in Bad Godesberg unsere
+							<br />Schuhmanufaktur. Wir haben beide den Meister-
+							<br />brief erworben und bereits mehrere Jahre
+							Berufs- <br />erfahrung in verschiedenen Werkstätten
+							gesammelt.
+						</p>
+					</div>
+				</div>
+				<div class="keen-slider__slide number-slide3">
+					<div class="chroniccard">
+						<img src="/img/chronic1.png" alt="chroniccard1" />
+						<h5>2001</h5>
+						<p id="month">September</p>
+						<p>
+							Gemeinsam eröffnen wir Geschwister, Maria Gracia
+							<br />und Paolo Zuretti, in Bad Godesberg unsere
+							<br />Schuhmanufaktur. Wir haben beide den Meister-
+							<br />brief erworben und bereits mehrere Jahre
+							Berufs- <br />erfahrung in verschiedenen Werkstätten
+							gesammelt.
+						</p>
+					</div>
+				</div>
+				<div class="keen-slider__slide number-slide4">
+					<div class="chroniccard">
+						<img src="/img/chronic1.png" alt="chroniccard1" />
+						<h5>2001</h5>
+						<p id="month">September</p>
+						<p>
+							Gemeinsam eröffnen wir Geschwister, Maria Gracia
+							<br />und Paolo Zuretti, in Bad Godesberg unsere
+							<br />Schuhmanufaktur. Wir haben beide den Meister-
+							<br />brief erworben und bereits mehrere Jahre
+							Berufs- <br />erfahrung in verschiedenen Werkstätten
+							gesammelt.
+						</p>
+					</div>
+				</div>
+				<div class="keen-slider__slide number-slide5">
+					<div class="chroniccard">
+						<img src="/img/chronic1.png" alt="chroniccard1" />
+						<h5>2001</h5>
+						<p id="month">September</p>
+						<p>
+							Gemeinsam eröffnen wir Geschwister, Maria Gracia
+							<br />und Paolo Zuretti, in Bad Godesberg unsere
+							<br />Schuhmanufaktur. Wir haben beide den Meister-
+							<br />brief erworben und bereits mehrere Jahre
+							Berufs- <br />erfahrung in verschiedenen Werkstätten
+							gesammelt.
+						</p>
+					</div>
+				</div>
+				<div class="keen-slider__slide number-slide6">
+					<div class="chroniccard">
+						<img src="/img/chronic1.png" alt="chroniccard1" />
+						<h5>2001</h5>
+						<p id="month">September</p>
+						<p>
+							Gemeinsam eröffnen wir Geschwister, Maria Gracia
+							<br />und Paolo Zuretti, in Bad Godesberg unsere
+							<br />Schuhmanufaktur. Wir haben beide den Meister-
+							<br />brief erworben und bereits mehrere Jahre
+							Berufs- <br />erfahrung in verschiedenen Werkstätten
+							gesammelt.
+						</p>
+					</div>
+				</div>
+				<div class="keen-slider__slide number-slide7">
+					<div class="chroniccard">
+						<img src="/img/chronic1.png" alt="chroniccard1" />
+						<h5>2001</h5>
+						<p id="month">September</p>
+						<p>
+							Gemeinsam eröffnen wir Geschwister, Maria Gracia
+							<br />und Paolo Zuretti, in Bad Godesberg unsere
+							<br />Schuhmanufaktur. Wir haben beide den Meister-
+							<br />brief erworben und bereits mehrere Jahre
+							Berufs- <br />erfahrung in verschiedenen Werkstätten
+							gesammelt.
+						</p>
+					</div>
+				</div>
+				<div class="keen-slider__slide number-slide8">
+					<div class="chroniccard">
+						<img src="/img/chronic1.png" alt="chroniccard1" />
+						<h5>2001</h5>
+						<p id="month">September</p>
+						<p>
+							Gemeinsam eröffnen wir Geschwister, Maria Gracia
+							<br />und Paolo Zuretti, in Bad Godesberg unsere
+							<br />Schuhmanufaktur. Wir haben beide den Meister-
+							<br />brief erworben und bereits mehrere Jahre
+							Berufs- <br />erfahrung in verschiedenen Werkstätten
+							gesammelt.
+						</p>
+					</div>
+				</div>
+				<div class="keen-slider__slide number-slide9">
+					<div class="chroniccard">
+						<img src="/img/chronic1.png" alt="chroniccard1" />
+						<h5>2001</h5>
+						<p id="month">September</p>
+						<p>
+							Gemeinsam eröffnen wir Geschwister, Maria Gracia
+							<br />und Paolo Zuretti, in Bad Godesberg unsere
+							<br />Schuhmanufaktur. Wir haben beide den Meister-
+							<br />brief erworben und bereits mehrere Jahre
+							Berufs- <br />erfahrung in verschiedenen Werkstätten
+							gesammelt.
+						</p>
+					</div>
+				</div>
+				<div class="keen-slider__slide number-slide10">
+					<div class="chroniccard">
+						<img src="/img/chronic1.png" alt="chroniccard1" />
+						<h5>2001</h5>
+						<p id="month">September</p>
+						<p>
+							Gemeinsam eröffnen wir Geschwister, Maria Gracia
+							<br />und Paolo Zuretti, in Bad Godesberg unsere
+							<br />Schuhmanufaktur. Wir haben beide den Meister-
+							<br />brief erworben und bereits mehrere Jahre
+							Berufs- <br />erfahrung in verschiedenen Werkstätten
+							gesammelt.
+						</p>
+					</div>
+				</div>
+				<div class="keen-slider__slide number-slide11">
+					<div class="chroniccard">
+						<img src="/img/chronic1.png" alt="chroniccard1" />
+						<h5>2001</h5>
+						<p id="month">September</p>
+						<p>
+							Gemeinsam eröffnen wir Geschwister, Maria Gracia
+							<br />und Paolo Zuretti, in Bad Godesberg unsere
+							<br />Schuhmanufaktur. Wir haben beide den Meister-
+							<br />brief erworben und bereits mehrere Jahre
+							Berufs- <br />erfahrung in verschiedenen Werkstätten
+							gesammelt.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
-            <!-- Second content section -->
-        <div class="section">
-            <div class="secondsection">
-                <h4 id="roofleft">Schuhmanufaktur Formschön</h4>
-                <h2 id="h2left">Wir lieben Leder</h2>
-            </div>
+		<div class="sectionheadline">
+			<div class="headline-row">
+				<span class="headline dark">Leistungen</span>
+				<span class="headline light">Leistungen</span>
+			</div>
+			<div class="headline-row">
+				<span class="headline light">Leistungen</span>
+				<span class="headline dark">Leistungen</span>
+				<span class="headline light">Leistungen</span>
+			</div>
+		</div>
 
-            <div class="leftcardcontent">
-                <img src="img/leftcard1.png" alt="left card picture 1">
-                <div class="contentcard">
-                    <h4 id="roofleft">Das leisten wir für Sie</h4>
-                    <h3>Reparieren:</h3>
-                    <p>
-                        Kommen Sie mit hochwertigen<br>Lederwaren zu uns, wenn etwas kaputt<br> ist. Wie zum Beispiel:<br>ein eingerissener Riemen am Rucksack,<br>ein Reißverschluss an der Tasche,<br>der sich verhakt hat, schief getretene<br>Stiefelsohlen, ein locker gewordener<br>Schuhabsatz. Der Erhalt von schönen,<br>Ihnen lieb gewordenen Qualitätswaren ist<br>uns ein Anliegen. Wegwerfen war gestern!
-                    </p>
-                </div>
-            </div>
-            <div class="rightcardcontent">
-                <img src="img/rightcard1.png" alt="right card picture 1">
-                <div class="contentcard">
-                    <h4 id="roofleft">Das leisten wir für Sie</h4>
-                    <h3>Verbessern:</h3>
-                    <p>
-                        Scheuen Sie sich nicht, auch mit guten,<br>industriell gefertigten Qualitätsschuhen zu uns<br>zu kommen, wenn Sie spezielle<br>Anpassungswünsche haben. Wie zum Beispiel:<br> Schuhe weiten, Stiefelschäfte kürzen,<br>Spezialsohlen anbringen, Beinlängen-Differenz<br>ausgleichen, Absätze erhöhen. Es ist uns<br>wichtig, dass Ihre Füße eine passgenaue<br>Bekleidung haben. Schmerzen sind<br>vermeidbar.
+		<div class="clearfix"></div>
 
-                    </p>
-                </div>
-            </div>
+		<!-- Second content section -->
+		<div class="section">
+			<div class="secondsection">
+				<h4 id="roofleft">Schuhmanufaktur Formschön</h4>
+				<h2 id="h2left">Wir lieben Leder</h2>
+			</div>
 
-        </div>
+			<div class="leftcardcontent">
+				<img src="img/leftcard1.png" alt="left card picture 1" />
+				<div class="contentcard">
+					<h4 id="roofleft">Das leisten wir für Sie</h4>
+					<h3>Reparieren:</h3>
+					<p>
+						Kommen Sie mit hochwertigen<br />Lederwaren zu uns, wenn
+						etwas kaputt<br />
+						ist. Wie zum Beispiel:<br />ein eingerissener Riemen am
+						Rucksack,<br />ein Reißverschluss an der Tasche,<br />der
+						sich verhakt hat, schief getretene<br />Stiefelsohlen,
+						ein locker gewordener<br />Schuhabsatz. Der Erhalt von
+						schönen,<br />Ihnen lieb gewordenen Qualitätswaren
+						ist<br />uns ein Anliegen. Wegwerfen war gestern!
+					</p>
+				</div>
+			</div>
+			<div class="rightcardcontent">
+				<img src="img/rightcard1.png" alt="right card picture 1" />
+				<div class="contentcard">
+					<h4 id="roofleft">Das leisten wir für Sie</h4>
+					<h3>Verbessern:</h3>
+					<p>
+						Scheuen Sie sich nicht, auch mit guten,<br />industriell
+						gefertigten Qualitätsschuhen zu uns<br />zu kommen, wenn
+						Sie spezielle<br />Anpassungswünsche haben. Wie zum
+						Beispiel:<br />
+						Schuhe weiten, Stiefelschäfte kürzen,<br />Spezialsohlen
+						anbringen, Beinlängen-Differenz<br />ausgleichen,
+						Absätze erhöhen. Es ist uns<br />wichtig, dass Ihre Füße
+						eine passgenaue<br />Bekleidung haben. Schmerzen sind<br />vermeidbar.
+					</p>
+				</div>
+			</div>
+		</div>
 
-
-        <!-- Einbindung der Javascript Dateien -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/keen-slider.js"></script>
-        <script src="js/script.js"></script>
-
-    </body>
+		<!-- Einbindung der Javascript Dateien -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/keen-slider.js"></script>
+		<script src="js/script.js"></script>
+	</body>
 </html>
