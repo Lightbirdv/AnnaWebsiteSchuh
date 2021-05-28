@@ -1,365 +1,370 @@
 /*font stuff*/
-@font-face { font-family: NewYork; src: url('../font/NewYork.woff') format("woff"); }
-@font-face { font-family: GothamNarrow-Bold; src: url('../font/GothamNarrow-Bold.woff') format("woff"); }
-@font-face { font-family: GothamNarrow-Book; src: url('../font/GothamNarrow-Book.woff') format("woff"); font-weight: 500; }
+@font-face {
+	font-family: NewYork;
+	src: url("../font/NewYork.woff") format("woff");
+}
+@font-face {
+	font-family: GothamNarrow-Bold;
+	src: url("../font/GothamNarrow-Bold.woff") format("woff");
+}
+@font-face {
+	font-family: GothamNarrow-Book;
+	src: url("../font/GothamNarrow-Book.woff") format("woff");
+	font-weight: 500;
+}
 
 body {
-    background: #F8F7F3;
+	background: #f8f7f3;
+	margin: 0;
+	padding: 0;
 }
 
 /* general settings */
 
 p {
-    font-family: GothamNarrow-Book;
+	font-family: GothamNarrow-Book;
 }
 
 h1 {
-    font-family: NewYork;
-    font-size: 9.375rem;
-    font-weight: normal;
+	font-family: NewYork;
+	font-size: 9.375rem;
+	font-weight: normal;
 }
 
 h3 {
-    margin-top: -1.5rem;
-    font-family: NewYork;
-    font-size: 2rem;
-    font-weight: normal;
+	margin-top: -1.5rem;
+	font-family: NewYork;
+	font-size: 2rem;
+	font-weight: normal;
 }
 
 /* Navigation Section */
 
-
 .section {
-    margin: auto;
-    width: 100%;
-    max-width: 1200px;
+	margin: auto;
+	width: 100%;
+	max-width: 1200px;
 }
 
 #logo {
-    padding-left: 2.5em;
-    padding-top: 3em;
+	padding-left: 2.5em;
+	padding-top: 3em;
 }
 
 .nav-items {
-    position: relative;
-    float: right;
-    font-family: NewYork;
-    font-size: 1.25em;
-    text-align: right;
-    list-style-type: none;
-    padding-right:2.5rem;
-    padding-top: 1.5rem;
+	position: relative;
+	float: right;
+	font-family: NewYork;
+	font-size: 1.25em;
+	text-align: right;
+	list-style-type: none;
+	padding-right: 2.5rem;
+	padding-top: 1.5rem;
 }
 
 .nav-items a {
-    color: #282A2E;
-    text-decoration: none;
-    line-height: 1.5em;
+	color: #282a2e;
+	text-decoration: none;
+	line-height: 1.5em;
 }
 
 .nav-items a:hover {
-    color: #DD7472;
+	color: #dd7472;
 }
 
 /* rooftext */
 
-
 #rooftext {
-    width: fit-content;
-    margin: 0 auto 4rem;
-    font-family: GothamNarrow-Bold;
-    color: #DD7472;
-    font-size: 1em;
-    margin-bottom: 4rem;
-    text-align: center;
+	width: fit-content;
+	margin: 0 auto 4rem;
+	font-family: GothamNarrow-Bold;
+	color: #dd7472;
+	font-size: 1em;
+	margin-bottom: 4rem;
+	text-align: center;
 }
 
-#headertext1, #headertext2, #headertext3 {
-    font-family: NewYork;
-    font-size: 9vw;
-    display: flex;
-    /*font-size: 6.25em;*/
+#headertext1,
+#headertext2,
+#headertext3 {
+	font-family: NewYork;
+	font-size: 9vw;
+	display: flex;
+	/*font-size: 6.25em;*/
 }
 
 #headertext1 {
-    margin-top: -4.5rem;
-    margin-left: 25.25rem;
-    margin-bottom: 0;
+	margin-top: -4.5rem;
+	margin-left: 25.25rem;
+	margin-bottom: 0;
 }
 
 #headertext2 {
-    margin-top: -2rem;
-    margin-left: 42%;
-    margin-bottom: 0;
+	margin-top: -2rem;
+	margin-left: 42%;
+	margin-bottom: 0;
 }
 
 #headertext3 {
-    margin-top: -2rem;
-    margin-left: 22.25rem;
-    margin-bottom: 0.25em;
+	margin-top: -2rem;
+	margin-left: 22.25rem;
+	margin-bottom: 0.25em;
 }
 
 #red-arrow-down {
-    background-color:#DD7472;
-    border: 0;
-    border-radius: 50%;
-    color: white;
-    width: 5.25rem;
-    height: 5.25rem;
-    font-size: 2rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-left: 22.5rem;
-    z-index: 2;
-    position: absolute;
-
+	background-color: #dd7472;
+	border: 0;
+	border-radius: 50%;
+	color: white;
+	width: 5.25rem;
+	height: 5.25rem;
+	font-size: 2rem;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-left: 22.5rem;
+	z-index: 2;
+	position: absolute;
 }
 
 /* Weird Slider Stuff*/
 
 [class^="number-slide"],
 [class*=" number-slide"] {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 300px;
-    max-height: 100vh;
-    width: 10.25rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 300px;
+	max-height: 100vh;
+	width: 10.25rem;
 }
 
-
 .dots {
-    display: flex;
-    padding: 10px 0;
-    justify-content: center;
+	display: flex;
+	padding: 10px 0;
+	justify-content: center;
 }
 
 .dot {
-    border: none;
-    width: 10px;
-    height: 10px;
-    background: #c5c5c5;
-    border-radius: 50%;
-    margin: 0 5px;
-    padding: 5px;
-    cursor: pointer;
+	border: none;
+	width: 10px;
+	height: 10px;
+	background: #c5c5c5;
+	border-radius: 50%;
+	margin: 0 5px;
+	padding: 5px;
+	cursor: pointer;
 }
 
 .dot:focus {
-  outline: none;
+	outline: none;
 }
 
 .dot--active {
-  background: #000;
+	background: #000;
 }
 
 .arrow {
-  width: 30px;
-  height: 30px;
-  top: 50%;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  fill: #fff;
-  cursor: pointer;
+	width: 30px;
+	height: 30px;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	fill: #fff;
+	cursor: pointer;
 }
 
 .arrow--left {
-  left: 5px;
+	left: 5px;
 }
 
 .arrow--right {
-  left: auto;
-  right: 5px;
+	left: auto;
+	right: 5px;
 }
 
 .arrow--disabled {
-  fill: rgba(255, 255, 255, 0.5);
+	fill: rgba(255, 255, 255, 0.5);
 }
 
 /* First Section Content */
 
 .leftpicture {
-    position: relative;
+	position: relative;
 }
 
 #firstcontentpic {
-    margin-left: 9rem;
-    margin-top:9.5rem;
-    width: 50%;
-    height: 50%;
-    z-index: -1;
+	margin-left: 9rem;
+	margin-top: 9.5rem;
+	width: 50%;
+	height: 50%;
+	z-index: -1;
 }
 
 .card {
-    background-color: #FFFFFF;
-    position: absolute;
-    margin-top: -25em;
-    margin-left: 29em;
-    padding: 1.6rem 2.625rem 2.8rem 2.625rem;
+	background-color: #ffffff;
+	position: absolute;
+	margin-top: -25em;
+	margin-left: 29em;
+	padding: 1.6rem 2.625rem 2.8rem 2.625rem;
 }
 
 #roofleft {
-    font-family: GothamNarrow-Bold;
-    color: #DD7472;
-    font-size: 1rem;
+	font-family: GothamNarrow-Bold;
+	color: #dd7472;
+	font-size: 1rem;
 }
 
 .card p {
-    line-height: 1.8rem;
-    letter-spacing: 0.0625rem;
+	line-height: 1.8rem;
+	letter-spacing: 0.0625rem;
 }
 
 /* sectionheadline stuff */
 
 .sectionheadline {
-    width: 100%;
-    clear: both;
+	/* outline: 1px solid red; */
+	overflow: hidden;
+	margin: 10rem 0 4rem;
+	width: 100%;
+	clear: both;
+}
+.headline-row {
+	display: flex;
 }
 
-#firsthead, #fourthhead{
-    color: #2E2828;
-    opacity: 0.8;
+.headline-row:last-child {
+	/* alternativ mit rem statt % arbeiten */
+	transform: translateX(-20%);
 }
 
-#secondhead, #thirdhead{
-    color:#E8D6C5;
+.headline {
+	font-family: NewYork;
+	font-size: 9.375rem;
+	font-weight: normal;
+	margin-right: 2rem;
 }
 
-#firsthead {
-    float: left;
+.dark {
+	color: #2e2828;
+	opacity: 0.8;
 }
 
-#secondhead {
-    margin-right: -4em;
-    float:right;
-    overflow: hidden;
+.light {
+	color: #e8d6c5;
 }
 
-#thirdhead {
-    float: left;
-    overflow: hidden;
-    margin-left: -1em;
-    margin-top: -0.6em;
-}
-
-#fourthhead {
-    float: right;
-    overflow: hidden;
-    margin-right: -3em;
-    margin-top: -0.6em;
-}
+/* sectionheadline stuff end */
 
 .chronic h2 {
-    margin-top: -1.325em;
-    font-family: NewYork;
-    text-align: center;
-    font-size: 3em;
-    color: #2E2828;
+	margin-top: -1.325em;
+	font-family: NewYork;
+	text-align: center;
+	font-size: 3em;
+	color: #2e2828;
 }
 
 /* Keen Slider 2 */
 
 #my-keen-slider2 [class^="number-slide"],
 #my-keen-slider2 [class*=" number-slide"] {
-  height: 47.9375em;
+	height: 47.9375em;
 }
 
 .chroniccard {
-    position: relative;
+	position: relative;
 }
 
 .chroniccard img {
-    width: 60%;
-    border-radius: 0.375em;
-    margin-left: 5em;
-    z-index: 1;
-    box-shadow: 0em 0.143em 3em rgba(0, 0, 0, 0.08);
+	width: 60%;
+	border-radius: 0.375em;
+	margin-left: 5em;
+	z-index: 1;
+	box-shadow: 0em 0.143em 3em rgba(0, 0, 0, 0.08);
 }
 
 .chroniccard h5 {
-    position: absolute;
-    margin-top:-0.4em;
-    color: #2E2828;
-    font-family: NewYork;
-    font-weight: normal;
-    font-size: 10.625em;
-    z-index: -1;
-    opacity: 0.1;
+	position: absolute;
+	margin-top: -0.4em;
+	color: #2e2828;
+	font-family: NewYork;
+	font-weight: normal;
+	font-size: 10.625em;
+	z-index: -1;
+	opacity: 0.1;
 }
 
 .chroniccard p {
-    margin-top: 7.75em;
-    line-height: 1.8em;
-    letter-spacing: 0.0625em;
+	margin-top: 7.75em;
+	line-height: 1.8em;
+	letter-spacing: 0.0625em;
 }
 
 .chroniccard #month {
-    margin-top: 5em;
-    margin-bottom: -7em;
-    font-weight: 700;
+	margin-top: 5em;
+	margin-bottom: -7em;
+	font-weight: 700;
 }
 
 .spacer img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
 }
 
 .secondsection {
-    margin-top:10em;
-    margin-left: 9rem;
+	margin-top: 10em;
+	margin-left: 9rem;
 }
 
 .secondsection h2 {
-    margin-top: -0.5em;
-    font-family: NewYork;
-    font-size: 3em;
-    color: #2E2828;
+	margin-top: -0.5em;
+	font-family: NewYork;
+	font-size: 3em;
+	color: #2e2828;
 }
 
 .leftcardcontent {
-    margin-left: 9rem;
-    width: 50%;
-    height: 50%;
-    z-index: -1;
+	margin-left: 9rem;
+	width: 50%;
+	height: 50%;
+	z-index: -1;
 }
 
 .leftcardcontent .contentcard {
-    background-color: #FFFFFF;
-    position: absolute;
-    margin-top: -25em;
-    margin-left: 29em;
-    padding: 1.6rem 2.625rem 2.8rem 2.625rem;
+	background-color: #ffffff;
+	position: absolute;
+	margin-top: -25em;
+	margin-left: 29em;
+	padding: 1.6rem 2.625rem 2.8rem 2.625rem;
 }
 
 .leftcardcontent .contentcard p {
-    line-height: 1.8em;
-    letter-spacing: 0.0625em;
+	line-height: 1.8em;
+	letter-spacing: 0.0625em;
 }
 
 .rightcardcontent {
-    margin-top: 12em;
-    margin-left: 9rem;
-    width: 50%;
-    height: 50%;
-    z-index: -1;
+	margin-top: 12em;
+	margin-left: 9rem;
+	width: 50%;
+	height: 50%;
+	z-index: -1;
 }
 
-.rightcardcontent img{
-    float: right;
+.rightcardcontent img {
+	float: right;
 }
 
 .rightcardcontent .contentcard {
-    background-color: #FFFFFF;
-    position: absolute;
-    margin-top: -25em;
-    margin-left: 29em;
-    padding: 1.6rem 2.625rem 2.8rem 2.625rem;
+	background-color: #ffffff;
+	position: absolute;
+	margin-top: -25em;
+	margin-left: 29em;
+	padding: 1.6rem 2.625rem 2.8rem 2.625rem;
 }
 
 .rightcardcontent .contentcard p {
-    line-height: 1.8em;
-    letter-spacing: 0.0625em;
+	line-height: 1.8em;
+	letter-spacing: 0.0625em;
 }
-
