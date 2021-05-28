@@ -25,10 +25,21 @@ p {
 	font-family: GothamNarrow-Book;
 }
 
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
 h1 {
 	font-family: NewYork;
 	font-size: 9.375rem;
 	font-weight: normal;
+}
+
+h2 {
+	font-family: NewYork;
+	font-size: 3em;
+	color: #2e2828;
 }
 
 h3 {
@@ -314,7 +325,7 @@ h3 {
 
 .secondsection {
 	margin-top: 10em;
-	margin-left: 9rem;
+	margin-left: 4rem;
 }
 
 .secondsection h2 {
@@ -325,7 +336,7 @@ h3 {
 }
 
 .leftcardcontent {
-	margin-left: 9rem;
+	margin-left: 4rem;
 	width: 50%;
 	height: 50%;
 	z-index: -1;
@@ -350,21 +361,224 @@ h3 {
 	width: 50%;
 	height: 50%;
 	z-index: -1;
+	margin-bottom: 12em;
 }
 
 .rightcardcontent img {
-	float: right;
+	margin-left: 27em;
 }
 
 .rightcardcontent .contentcard {
 	background-color: #ffffff;
 	position: absolute;
-	margin-top: -25em;
-	margin-left: 29em;
+	margin-top: -28em;
+	margin-left: 4em;
 	padding: 1.6rem 2.625rem 2.8rem 2.625rem;
 }
 
 .rightcardcontent .contentcard p {
 	line-height: 1.8em;
 	letter-spacing: 0.0625em;
+}
+
+/*third section*/
+
+.thirdsection {
+	margin-top: 10em;
+	margin-left: 4rem;
+}
+
+.thirdsection h2 {
+	margin-top: -0.5em;
+	font-family: NewYork;
+	font-size: 3em;
+	color: #2e2828;
+}
+
+/* weird slider stuff 3 */
+#my-keen-slider3 [class^="number-slide"],
+#my-keen-slider3 [class*=" number-slide"] {
+	height: 12.375em;
+	width: 30.625em;
+	background-color: #FFFFFF;
+	margin-right:3em;
+	box-shadow: 0em 0.143em 3em rgba(0, 0, 0, 0.08);
+	margin-bottom: 3em;
+}
+
+.stepcard h5 {
+	float: left;
+	margin-left: -0.6em;
+	font-family: NewYork;
+	font-size: 10.625em;
+	color: #DD7472;
+	opacity: 0.3;
+	font-weight: normal;
+}
+
+.stepcard #roofleft {
+	margin-top: 21em;
+	/* margin-top: -14em; */
+} 
+
+.stepcard h6 {
+	margin-top: -0.3em;
+	font-family: NewYork;
+	font-weight: normal;
+	font-size: 2.1875em;
+	line-height: 1em;
+	letter-spacing: 0.0625rem;
+}
+
+#Stimmen {
+	margin-top: 20em;
+	margin-bottom: 10em;
+	padding: 0;
+}
+
+.fourthsection{
+	margin-top: 5em;
+	margin-left: 4rem;
+}
+
+.fourthsection h2 {
+	margin-top: -0.5em;
+	margin-left: 4.6em;
+}
+
+.fourthsection h4 {
+	margin-left: 13.9em;
+}
+
+.fourthsection img {
+	margin-top: 1em;
+	margin-left: 14em;
+}
+
+#Pflegetipps {
+	margin-top: 10em;
+	margin-bottom: 10em;
+}
+
+/* weird slider stuff 4*/
+
+#my-keen-slider4 [class^="number-slide"],
+#my-keen-slider4 [class*=" number-slide"] {
+	height: 12.375em;
+	width: 30.625em;
+	background-color: #FFFFFF;
+	margin-right:3em;
+	box-shadow: 0em 0.143em 3em rgba(0, 0, 0, 0.08);
+	margin-bottom: 3em;
+}
+
+.carecard h5 {
+	float: left;
+	margin-left: -0.4em;
+	font-family: NewYork;
+	font-size: 10.625em;
+	color: #DD7472;
+	opacity: 0.3;
+	font-weight: normal;
+}
+
+.carecard #roofleft {
+	margin-top: 20em;
+	/* margin-top: -14em; */
+} 
+
+.carecard p {
+	width: 150%;
+	line-height: 1.8em;
+	letter-spacing: 0.0625em;
+}
+
+#centerpic {
+	margin-top: 4em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#specialcase {
+	margin-top: 1em;
+	text-align: center;
+	font-family: NewYork;
+	font-size: 5.625em;
+}
+
+#red-arrow-up {
+	background-color: #dd7472;
+	border: 0;
+	border-radius: 50%;
+	width: 5.25rem;
+	height: 5.25rem;
+	font-size: 2rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+}
+
+.footer {
+	height: 40.75em;
+	margin-bottom: 0;
+    background: #2E2828;
+    background-image: url("../img/drip.svg");
+    background-position: center 0;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.footer-items {
+	position: relative;
+	float: left;
+	font-family: NewYork;
+	font-size: 3em;
+	text-align: left;
+	list-style-type: none;
+	padding-right: 2.5rem;
+	padding-top: 1.7rem;
+}
+
+.footer-items a {
+	color: #FFFFFF;
+	text-decoration: none;
+	line-height: 1.5em;
+}
+
+.footertxt {
+	float:left;
+	margin-top: 4.3em;
+	margin-left: 20em;
+	color: #FFFFFF;
+}
+
+.footertxt #headlinefooter {
+	font-family: NewYork;
+	font-size: 1.5em;
+}
+
+.footertxt p {
+	letter-spacing: 0.0625em;
+	line-height: 1.8em;
+	font-size: 0.875em;
+}
+
+.footertxt #facebook-white,
+#twitter-white,
+#insta-white,
+#snapchat-white {
+	margin-right: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.footertxt table td p{
+	margin-top: -1em;
+	margin-right: 1.5em;
+}
+
+.footer #impressum {
+	text-align: center;
 }

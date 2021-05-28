@@ -55,3 +55,19 @@ var slider = new KeenSlider("#my-keen-slider2", {
   centered: true,
   loop: false,
 })
+
+var slider = new KeenSlider("#my-keen-slider3", {
+  slidesPerView: 2,
+  mode: "free-snap",
+  spacing: 15,
+  centered: true,
+  loop: false,
+})
+
+var slider = new KeenSlider("#my-keen-slider4", {
+  slidesPerView: 2,
+  mode: "free-snap",
+  spacing: 15,
+  centered: true,
+  loop: false,
+})
