@@ -20,14 +20,6 @@ var slider = new KeenSlider("#my-keen-slider1", {
 
 function updateClasses(instance) {
   var slide = instance.details().relativeSlide;
-  // var arrowLeft = document.getElementById("arrow-left");
-  // var arrowRight = document.getElementById("arrow-right");
-  // slide === 0
-  //   ? arrowLeft.classList.add("arrow--disabled")
-  //   : arrowLeft.classList.remove("arrow--disabled");
-  // slide === instance.details().size - 1
-  //   ? arrowRight.classList.add("arrow--disabled")
-  //   : arrowRight.classList.remove("arrow--disabled");
 
   var dots = document.querySelectorAll(".dot");
   dots.forEach(function (dot, idx) {
@@ -36,7 +28,6 @@ function updateClasses(instance) {
       : dot.classList.remove("dot--active");
   });
 }
-
 
 var slider = new KeenSlider("#my-keen-slider2", {
   slidesPerView: 2,
@@ -62,6 +53,13 @@ var slider = new KeenSlider("#my-keen-slider4", {
   loop: false,
 })
 
+var slider = new KeenSlider("#testimonial-slider", {
+  slidesPerView: 3,
+  rtl: true,
+  spacing: 50,
+  loop: true,
+})
+
 var navTrigger = document.getElementsByClassName('nav-trigger')[0],
     body = document.getElementsByTagName('body')[0];
 
@@ -71,3 +69,14 @@ function toggleNavigation(event) {
   event.preventDefault();
   body.classList.toggle('nav-open');
 }
+
+for (idx = 0; idx < 7; idx++) {
+  var NavA = document.getElementsByClassName('nav-item')[idx];
+  NavA.addEventListener('click', toggleNavigation);
+}
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => { 
+  anchor.addEventListener('click', function (e) { 
+    e.preventDefault(); document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' }); 
+  }); 
+});

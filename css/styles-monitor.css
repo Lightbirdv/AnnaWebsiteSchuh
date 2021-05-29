@@ -465,6 +465,28 @@ h3 {
 	margin-left: 14em;
 }
 
+#testimonial-slider[class^="number-slide"],
+#testimonial-slider[class^="number-slide"] {
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+  height: 300px;
+  max-height: 100vh;
+}
+
+.testimonialcard {
+	background-color: #FFFFFF;
+	padding: 1vw 1vw 1vw 1vw;
+}
+
+.testimonialcard p {
+	width: 300px;
+}
+
 #Pflegetipps {
 	margin-top: 10em;
 	margin-bottom: 10em;

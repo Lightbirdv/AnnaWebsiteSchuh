@@ -253,12 +253,13 @@ h3 {
 	font-size: 2rem;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	margin-left: 22.5rem;
+	margin-left: 43vw;
 	z-index: 2;
 	position: absolute;
 }
 
 /* Weird Slider Stuff*/
+
 
 [class^="number-slide"],
 [class*=" number-slide"] {
@@ -293,29 +294,6 @@ h3 {
 
 .dot--active {
 	background: #000;
-}
-
-.arrow {
-	width: 30px;
-	height: 30px;
-	top: 50%;
-	transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-	fill: #fff;
-	cursor: pointer;
-}
-
-.arrow--left {
-	left: 5px;
-}
-
-.arrow--right {
-	left: auto;
-	right: 5px;
-}
-
-.arrow--disabled {
-	fill: rgba(255, 255, 255, 0.5);
 }
 
 /* first content section */
@@ -359,7 +337,7 @@ h3 {
     width: 57.421vw;
 }
 
-* sectionheadline stuff */
+/* sectionheadline stuff */
 
 .sectionheadline {
 	/* outline: 1px solid red; */
@@ -572,6 +550,7 @@ h3 {
     height: 28.125em;
     object-fit:cover;
     display: block;
+    border: 1px solid;
 }
 
 /* weird slider stuff 4*/
