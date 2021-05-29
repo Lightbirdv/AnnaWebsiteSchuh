@@ -111,20 +111,20 @@ h3 {
 }
 
 #headertext1 {
-	margin-top: -4.5rem;
-	margin-left: 25.25rem;
+	margin-top: -6vw;
+	margin-left: 30vw;
 	margin-bottom: 0;
 }
 
 #headertext2 {
-	margin-top: -2rem;
-	margin-left: 42%;
+	margin-top: -3vw;
+	margin-left: 40vw;
 	margin-bottom: 0;
 }
 
 #headertext3 {
-	margin-top: -2rem;
-	margin-left: 22.25rem;
+	margin-top: -3vw;
+	margin-left: 27vw;
 	margin-bottom: 0.25em;
 }
 
@@ -234,6 +234,7 @@ h3 {
 .card p {
 	line-height: 1.8rem;
 	letter-spacing: 0.0625rem;
+	max-width: 35.96vw;
 }
 
 /* sectionheadline stuff */
@@ -359,6 +360,7 @@ h3 {
 .leftcardcontent .contentcard p {
 	line-height: 1.8em;
 	letter-spacing: 0.0625em;
+	max-width: 26vw;
 }
 
 .rightcardcontent {
@@ -378,13 +380,14 @@ h3 {
 	background-color: #ffffff;
 	position: absolute;
 	margin-top: -28em;
-	margin-left: 4em;
+	margin-left: 9vw;
 	padding: 1.6rem 2.625rem 2.8rem 2.625rem;
 }
 
 .rightcardcontent .contentcard p {
 	line-height: 1.8em;
 	letter-spacing: 0.0625em;
+	max-width: 26.5vw;
 }
 
 /*third section*/
@@ -434,6 +437,7 @@ h3 {
 	font-size: 2.1875em;
 	line-height: 1em;
 	letter-spacing: 0.0625rem;
+	max-width: 30vw;
 }
 
 #Stimmen {
@@ -497,6 +501,7 @@ h3 {
 	width: 150%;
 	line-height: 1.8em;
 	letter-spacing: 0.0625em;
+	max-width: 35vw;
 }
 
 #centerpic {
